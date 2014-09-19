@@ -34,10 +34,16 @@ __PLEASE CONTACT ME IF YOU RUN INTO ANY PROBLEMS WHEN YOU CANNOT SOLVE__
    + Open `matlab` folder in `aitechnics-toolkit`.
    + You can run `example.m` as a example, there are some useful comments available. 
 
+3. For Python:
+   + Import `pyhiggstool.py` in your project (you can simply put this file in your working directory).
+      ```
+      import pyhiggstool as pht;
+      ```
+
 ##Updates
 
 + Matlab evaluation toolkit is available [2014-09-16]
-+ Python evaluation toolkit [TODO]
++ Python evaluation toolkit [2014-09-19]
 
 ##Notes
 
@@ -52,6 +58,16 @@ __PLEASE CONTACT ME IF YOU RUN INTO ANY PROBLEMS WHEN YOU CANNOT SOLVE__
 + I provide a example by using Neural Network Toolbox in Matlab version, please make sure your Matlab has this toolbox for running code.
 
 + I develop this code on Linux, therefore, some path conventions are different from Windows system. if you run into any file system problems, please check on that. But generally, it should work.
+
++ In python version, there is no real example for classification, you can refer to Eric Chio (log0)'s answer.
+   ```
+   https://github.com/log0/higgs_boson/blob/master/cleaned_model.py
+   ```
+
++ You can use `numpy` and `scipy` to write your own learning algorithm, and there are some libraries you can use:
+   + PyBrain: http://pybrain.org/ [implemented many neural networks]
+   + scikit-learn: http://scikit-learn.org/ [implemented many widely using ML algorithms]
+   + Theano: http://deeplearning.net/software/theano/ [serve as numerical computation library in principle, support GPU implementation]
 
 ##Contact
 
